@@ -183,3 +183,59 @@ current = head; // So current is not stale
   * if you do not need order statistics and are worried about nonrandom inputs, use hash table instead of BST
 * Time Complexity: 
   *  is based on statistical properties rather than the random-looking input(BST). 
+
+
+
+### Graph
+* graph is a non-linear data structure consisting of vertices an edges.
+* graph has the closet resemblance to our daily life.
+* ex: the friendship circle is a hugh undirected graph
+* Figure 1:
+* ![image](https://user-images.githubusercontent.com/79159894/145889087-dfdd5b7a-6fc1-4989-add0-9fc989f51e83.png)
+
+
+* 3 Types of graph
+* 1. undirected graphs
+     * the edges between any 2 vertices do not have a direction, indicating a 2-way relationship.
+* 2. directed graphs
+     * the edges between any 2 vertices  are directional.
+     *   ![image](https://user-images.githubusercontent.com/79159894/145889637-0c2b49a9-bed7-47f6-bb46-3e0170bc71e7.png)
+
+* 3. weighted graphs
+     * each edge has an associtated weight.
+     *  the weight can be of any metric, such as time, distance, size, etc.
+     *  ex: city map
+     *   ![image](https://user-images.githubusercontent.com/79159894/145889929-8defb5e0-0d56-473f-b147-3ec8d0c51c81.png)
+     *   In this figure, each edge is marked with the distance, which can be regarded as the wight of that edge.
+
+* Terminologies:
+    * Vertex: nodes
+    * Edge: tha connection between 2 vertices
+    * Path: the sequence of vertices to go through from one vertex to another.
+            * ex: In figure 1, a path from A to C is [A,B,C], or [A, G, B, C], or [A, E, F, D, B, C].
+            * Note: there can be multiple paths between 2 vertices.
+    * Path length: the number of edges in a path.
+            * In figure 1, the path lengths from person A to C are 2, 3, and 5, respectively.
+   * Cycle: a path where the starting point and endpoint are the same vertex.   
+            * In figure 1, [A, B, D, F, E] forms a cycle.
+            * Similarly, [A, G, B] forms another cycle.
+   * Negative weight cycle:
+            * In a "weighted graph", if the sum of the weights of all edges of a cycle is a negative value, it is a negative weight cycle.
+            * In this figure, the sum of weight is -3.
+            *  ![image](https://user-images.githubusercontent.com/79159894/145893999-e934bf8d-a4e9-49f7-83d2-9df39e58fe2e.png)
+
+   * Connectivity: if there exists at least one path between 2 vertices, these 2 vertices are connected.  
+            * In figure 1, A and C are connected because there at least 1 path connecting them.
+   * Degree of a vertex: 
+            * the term "degree" applies to unweighted graphs.
+            * the degree of a vertex is the number of edges connecting the vertex.
+            * In figure 1, the degree of vertex A is 3 becaause 3 edges are connecting it.
+    * In-degree: 
+            * is a concept in directed graphs.
+            * If the in-degree of a vertex is d, there are d directional edges incident to the vertex.
+            * In figure 2, A's indegree is 1, the edge from F to A.
+   * Out-degree:
+            * is a concept in directed graphs.
+            * if the out-degree of a vertex ia d, there are d edges incident from the vertex.
+            * In figure 2, A's outdegree is 3, the edges A to B, A to C, and A to G.     
+
