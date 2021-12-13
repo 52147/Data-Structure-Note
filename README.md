@@ -79,13 +79,13 @@
 
 
 * uses:  
-  1. expression tree:　
+ 1. expression tree:　
     * The leaves are operands and nodes contain operator. 
     * apply in complier design
-  2. Huffman coding tree:
+ 2. Huffman coding tree:
     * used in data compression algorithm
     * Each alphabet is stored at a leaf
-  3. Binary Search Tree: 
+ 3. Binary Search Tree: 
     * allows logarithmic time insertions and accessing of items, and priority queues.  
 
 * Time Complexity: 
