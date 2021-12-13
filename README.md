@@ -6,6 +6,29 @@
 
 ## Final Note
 
+### Priority Queues
+
+
+### Heap
+* A heap is a special type of Binary tree.
+* heap propertiesL
+   * is a complete binary tree.
+   * the value of each node must be no greater thatn(or no less than) the value of its child node.
+* Time complexity:
+   * insertion of an element into the heap need O(logN) time
+   * deletion of an element  from the heap need O(logN) time
+   * the maximum/ minimum value in the heap can be obtained with O(i) time. 
+
+* 2 kinds of Heap:
+   * 1. Max heap
+       * each node in the heap has a value no less than its child nodes.
+       * thus, the top element(root node) has the largest value in the heap. 
+   * 2. Min heap 
+       * each node in the heap has a value no loger than its child nodes.
+       * thus, the top element(root node) has the smallest value in the heap 
+
+![image](https://user-images.githubusercontent.com/79159894/145886189-3f9037e7-5f5e-43d9-80f7-94e2721a115b.png)
+
 ### Doubly Linked List
 * A doubly linked list allows bidirectional traversal by storing two links per node.
 * Symmetry demands that we use both a head and a tail and that we support roughly twice as many operations.
@@ -15,7 +38,7 @@
 head.next == tail or tail.prev == head
 ```
 * Insertion and removal involve twice as many link changes as for a singly linked list.
-  - to remove x we have to change a’snext link and b’s prev link.
+  - to remove x we have to change a’s next link and b’s prev link.
 ```
 newNode = new DoublyLinkedListNode( x );
 newNode.prev = current; // Set x's prev link
