@@ -25,6 +25,10 @@
  * The stack of activation records is used because methods return in reverse order of their invocation
  * Recursion can always be removed by using a stack to save space.
 
+* Activation record:
+*  is used to manage the information needed by a single execution of a procedure. 
+*  An activation record is pushed into the stack when a procedure is called and it is popped when the control returns to the caller function.
+
 
 
 
