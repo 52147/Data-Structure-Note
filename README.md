@@ -1,6 +1,6 @@
 # Data-Structure-Note
 
-## midterm review
+## Midtern Review
 
-## final note
+## Final Note
 
