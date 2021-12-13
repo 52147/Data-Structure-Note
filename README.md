@@ -239,3 +239,5 @@ current = head; // So current is not stale
    * if the out-degree of a vertex ia d, there are d edges incident from the vertex.
    * In figure 2, A's outdegree is 3, the edges A to B, A to C, and A to G.     
 
+### Disjoint Set
+
