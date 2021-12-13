@@ -75,14 +75,15 @@ zero or more subtrees.
 
 
 ### Hash Table
-* used to implement a set in constant time per operation.
+* A table used to implement a dictionary(a set) in constant time per operation.
 * Hashing: The implementation of hash tables is called hashing, and it performs insertions, deletions, and finds in constant average time.
-* Time Complexity: 
-  *  is based on statistical properties rather than the random-looking input(BST). 
+
 * Use index to store the item:
   * one-to-one(one item in one index)
   * converts the item into an integer suitable to index an array where the item is stored. If the hash function were one to one, we could access the item by its array index.
   * Not one-to-one -> collision: several items collide at the same index and cause a collision.
   * collision : The result when two or more items in a hash table hash out to the same position. This problem is unavoidable because there are more items than positions.
-* BST vs. Hash Table
-* if you do not need order statistics and are worried about nonrandom inputs, use hash table instead of BST
+* BST vs. Hash Table:
+  * if you do not need order statistics and are worried about nonrandom inputs, use hash table instead of BST
+* Time Complexity: 
+  *  is based on statistical properties rather than the random-looking input(BST). 
