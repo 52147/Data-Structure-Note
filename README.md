@@ -6,6 +6,9 @@
 
 ## Final Note
 
+### Queue and Stack
+*
+
 ### Priority Queues
 * a priority queues is an abstract data type similar to a regular queus or stack data structure
 * in whuch each element additionaly has a "priority" associated with it.
@@ -173,7 +176,9 @@ current = head; // So current is not stale
 ### Hash Table
 * A table used to implement a dictionary(a set) in constant time per operation.
 * Hashing: The implementation of hash tables is called hashing, and it performs insertions, deletions, and finds in constant average time.
-
+* 2 different types of Hash table:
+  *  1. Hash Set: is one of the implementation of a set data structure to store no repeated value.
+  *  2. Hash map: is one of the implementation of a map data structure to store ( key, value) pairs.
 * Use index to store the item:
   * one-to-one(one item in one index)
     * converts the item into an integer suitable to index an array where the item is stored. If the hash function were one to one, we could access the item by its array index.
