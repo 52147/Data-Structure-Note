@@ -191,7 +191,7 @@ current = head; // So current is not stale
 * graph has the closet resemblance to our daily life.
 * ex: the friendship circle is a hugh undirected graph
 * Figure 1:
-* ![image](https://user-images.githubusercontent.com/79159894/145889087-dfdd5b7a-6fc1-4989-add0-9fc989f51e83.png)
+![image](https://user-images.githubusercontent.com/79159894/145889087-dfdd5b7a-6fc1-4989-add0-9fc989f51e83.png)
 
 
 * 3 Types of graph
@@ -199,13 +199,13 @@ current = head; // So current is not stale
      * the edges between any 2 vertices do not have a direction, indicating a 2-way relationship.
 * 2. directed graphs
      * the edges between any 2 vertices  are directional.
-     *   ![image](https://user-images.githubusercontent.com/79159894/145889637-0c2b49a9-bed7-47f6-bb46-3e0170bc71e7.png)
+![image](https://user-images.githubusercontent.com/79159894/145889637-0c2b49a9-bed7-47f6-bb46-3e0170bc71e7.png)
 
 * 3. weighted graphs
      * each edge has an associtated weight.
      *  the weight can be of any metric, such as time, distance, size, etc.
      *  ex: city map
-     *   ![image](https://user-images.githubusercontent.com/79159894/145889929-8defb5e0-0d56-473f-b147-3ec8d0c51c81.png)
+   ![image](https://user-images.githubusercontent.com/79159894/145889929-8defb5e0-0d56-473f-b147-3ec8d0c51c81.png)
      *   In this figure, each edge is marked with the distance, which can be regarded as the wight of that edge.
 
 * Terminologies:
@@ -222,7 +222,7 @@ current = head; // So current is not stale
    * Negative weight cycle:
             * In a "weighted graph", if the sum of the weights of all edges of a cycle is a negative value, it is a negative weight cycle.
             * In this figure, the sum of weight is -3.
-            *  ![image](https://user-images.githubusercontent.com/79159894/145893999-e934bf8d-a4e9-49f7-83d2-9df39e58fe2e.png)
+           ![image](https://user-images.githubusercontent.com/79159894/145893999-e934bf8d-a4e9-49f7-83d2-9df39e58fe2e.png)
 
    * Connectivity: if there exists at least one path between 2 vertices, these 2 vertices are connected.  
             * In figure 1, A and C are connected because there at least 1 path connecting them.
