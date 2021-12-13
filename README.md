@@ -15,6 +15,7 @@
 head.next == tail or tail.prev == head
 ```
 * Insertion and removal involve twice as many link changes as for a singly linked list.
+  - to remove x we have to change a’snext link and b’s prev link.
 ```
 newNode = new DoublyLinkedListNode( x );
 newNode.prev = current; // Set x's prev link
