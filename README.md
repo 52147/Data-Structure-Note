@@ -6,6 +6,8 @@
 
 ## Final Note
 
+### Doubly Linked List
+
 ### Recursion
 * using stack
 * 
@@ -49,10 +51,10 @@ zero or more subtrees.
 ### Binary Tree
 
 
-* A data structure that supports insertion, searching, and deletion in O(log N) average time. 
+* supports insertion, searching, and deletion in O(log N) average time. 
 * one node that can only have two children, which neamed them left and right
 * BT can be empty or consist a root, a left, a right.(left, right can be empty)
-* all smaller keyed nodes are in the left subtree and all larger keyed nodes are in the right subtree. 
+* smaller keyed nodes are in the left subtree and larger keyed nodes are in the right subtree. 
 * Duplicates are not allowed.
 
 
@@ -68,8 +70,19 @@ zero or more subtrees.
     * allows logarithmic time insertions and accessing of items, and priority queues.  
 
 * Time Complexity: 
-* The running time for most operations is O(log N) on average. 
+* most operations is O(log N) on average. 
 * the worst-case time is O(N) per operation.
 
 
-
+### Hash Table
+* used to implement a set in constant time per operation.
+* Hashing: The implementation of hash tables is called hashing, and it performs insertions, deletions, and finds in constant average time.
+* Time Complexity: 
+*  is based on statistical properties rather than the random-looking input(BST). 
+* Use index to store the item:
+* one-to-one(one item in one index)
+* converts the item into an integer suitable to index an array where the item is stored. If the hash function were 
+one to one, we could access the item by its array index.
+* Not one-to-one -> collision: several items collide at the same index and cause a collision.
+* collision : The result when two or more items in a hash table hash out to the same position. This problem is unavoidable because there are more items than positions.
+* Use a hash table instead of a binary search tree if you do not need order statistics and are worried about nonrandom inputs.
