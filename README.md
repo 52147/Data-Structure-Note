@@ -63,8 +63,11 @@
 ![image](https://user-images.githubusercontent.com/79159894/145777204-c8cb32d0-4272-4652-8a70-39950d54660b.png)
 
 1. preorder : vist root node-> left subtree of the root -> right subtree of the root
-2. postorder : vist left subtree of the root -> right subtree of the root -> root node
-3. inorder : vist left subtree of the root -> root node -> right subtree of the root 
+   *  A, B, D, C, E, G, F, H, I
+3. postorder : vist left subtree of the root -> right subtree of the root -> root node
+   * D, B, G, E, H, I, F, C, A
+4. inorder : vist left subtree of the root -> root node -> right subtree of the root
+   * B, D, A, G, E, C, H, F, I
 
 * Time Complexity: 
   * linear
