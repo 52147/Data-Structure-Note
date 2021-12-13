@@ -11,7 +11,10 @@
 *  BT can be empty or consist a root, a left, a right.(left, right can be empty)
 
 
-*uses:  
+* uses:  
+  * １．expression tree:　
+    * The leaves are operands and nodes contain operator. apply in complier design
+  * ２．
 
 
 
