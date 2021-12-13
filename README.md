@@ -9,10 +9,11 @@
 ### Doubly Linked List
 * A doubly linked list allows bidirectional traversal by storing two links per node.
 * Symmetry demands that we use both a head and a tail and that we support roughly twice as many operations.
-* An empty doubly linked list: 
-
-* head.next == tail or tail.prev == head
 * When we advance past the end of the list, we now hit the tail node instead of null.
+   * An empty doubly linked list: 
+```
+head.next == tail or tail.prev == head
+```
 * Insertion and removal involve twice as many link changes as for a singly linked list.
 ```
 newNode = new DoublyLinkedListNode( x );
@@ -22,7 +23,7 @@ newNode.prev.next = newNode; // Set a's next link
 newNode.next.prev = newNode; // Set b's prev link
 current = newNode;
 ```
-* The remove operation can proceed from the current node because we can obtain the previous node instantly.
+* The remove operation can proceed from the current node because we can obtain the previous node instantly.
 ```
 current.prev.next = current.next; // Set a's next link
 current.next.prev = current.prev; // Set b's prev link
@@ -34,7 +35,7 @@ current = head; // So current is not stale
 ### Recursion
 * A recursive method is a method that either directly or indirectly makes a call to itself.
 * A recursive method is defined in terms of a smaller instance of itself. 
-   * Proofs by induction:
+   - Proofs by induction:
    * 1. a statement is true for a smallest case 
    * 2. and can show that one case implies the next case
    *  => then we know the statement is true for all cases.
