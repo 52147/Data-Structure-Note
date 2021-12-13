@@ -11,23 +11,23 @@
 ### Recursion
 * A recursive method is a method that either directly or indirectly makes a call to itself.
 * A recursive method is defined in terms of a smaller instance of itself. 
- * Proofs by induction:
- * 1. a statement is true for a smallest case 
- * 2. and can show that one case implies the next case
-   *  => then we know the statement is true for all cases.
+   * Proofs by induction:
+   * 1. a statement is true for a smallest case 
+   * 2. and can show that one case implies the next case
+     *  => then we know the statement is true for all cases.
  * Base case(to stop):
  * Any recursive call must make progress toward a base case(can be computed without recursion) in order to terminate eventually.
 
 * Fibonacci numbers: A sequence of numbers in which the ith number is the sum of the two previous numbers.
 
 * Using stack to implement:
- * Java implements recursive methods by using an internal stack of activation records.
- * The stack of activation records is used because methods return in reverse order of their invocation
- * Recursion can always be removed by using a stack to save space.
+  * Java implements recursive methods by using an internal stack of activation records.
+  * The stack of activation records is used because methods return in reverse order of their invocation
+  * Recursion can always be removed by using a stack to save space.
 
 * Activation record:
- *  is used to manage the information needed by a single execution of a procedure. 
- *  An activation record is pushed into the stack when a procedure is called and it is popped when the control returns to the caller function.
+  *  is used to manage the information needed by a single execution of a procedure. 
+  *  An activation record is pushed into the stack when a procedure is called and it is popped when the control returns to the caller function.
 
 
 
