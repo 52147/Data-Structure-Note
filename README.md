@@ -9,11 +9,23 @@
 ### Tree
 1. nonrecursively tree
    * consistd of a set of nodes and a set of directed edges
+   * application: 
+     * File system : 
+     * use root and childre to reach hierarchical file system, it allows user to organize their data logically.
+     * ex: Unix, VAX/VMS, and windows/DOS
+     * Unix fily system:
+     * the root of directory is mark, mark has 3 children books, course, login
    * rooted tree:
      * properties:
-        * 1. root node
+        * 1. One root node(has no parent); depth: 0;
         * 2. Every node is connected by an edge from one other node. 
-             * ex: node c is connected with node p. -> Node p is c' s parent, and c is one of p's children. 
+             * ex: node c is connected with node p. -> Node p is c' s parent, and c is one of p's children.
+             * A tree with N node has N-1 edges.
+        * 3. path length: the number of edges from the root to each node. 
+        * 4. leaf: node that has no children is called an leaf
+        * 5. depth: length of the path from the root to the node. the depth of root is 0. the depth of any node is one more that its parent.
+        * 6. height: length of the path from the node to the deepest leaf.
+        
 2. recursively tree
 
 ### Binary Tree
