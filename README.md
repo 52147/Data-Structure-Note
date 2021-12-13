@@ -7,8 +7,22 @@
 ## Final Note
 
 ### Priority Queues
-
-
+* a priority queues is an abstract data type similar to a regular queus or stack data structure
+* in whuch each element additionaly has a "priority" associated with it.
+* In priority queues, an element with high priority is serverd before an element with low priority.
+* Misconception:
+   *  A priotity queues is not the same as heap.
+   *  A heap is a data structure, a priority is a abstract data type.
+   *  A heap is a wat to implement a priority queue.
+* Implementation:
+   * use array or linked list
+   * use heap
+* Time complexity
+   * use array or linked list
+      * insertion and deletion -> O(1)
+      * other operation -> O(N)  
+   * use heap
+       * insertion and deletion -> O(logN) 
 ### Heap
 * A heap is a special type of Binary tree.
 * heap propertiesL
