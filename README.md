@@ -9,8 +9,24 @@
 ### Doubly Linked List
 
 ### Recursion
-* using stack
-* 
+* A recursive method is a method that either directly or indirectly makes a call to itself.
+* A recursive method is defined in terms of a smaller instance of itself. 
+ * Proofs by induction:
+ * 1. a statement is true for a smallest case 
+ * 2. and can show that one case implies the next case
+ *   => then we know the statement is true for all cases.
+ * Base case(to stop):
+ * Any recursive call must make progress toward a base case(can be computed without recursion) in order to terminate eventually.
+
+* Fibonacci numbers: A sequence of numbers in which the ith number is the sum of the two previous numbers.
+
+* using stack:
+ * Java implements recursive methods by using an internal stack of activation records.
+ * The stack of activation records is used because methods return in reverse order of their invocation
+ * Recursion can always be removed by using a stack to save space.
+
+* Recursion can be proved by induction.
+
 
 ### Tree
 1. nonrecursively tree
@@ -33,8 +49,7 @@
       * 6. height: length of the path from the node to the deepest leaf.
       * 7. size: The number of descendants a node has (including the node itself).
         
-2. recursively tree: a tree is either empty or consists of a root and
-zero or more subtrees. 
+2. recursively tree: a tree is either empty or consists of a root and zero or more subtrees. 
 
 ### Tree traversal
 * traversal: count how many descendants the node has.
@@ -43,9 +58,9 @@ zero or more subtrees.
 * 2. postorder : vist left subtree of the root -> right subtree of the root -> root node
 * 3. inorder : vist left subtree of the root -> root node -> right subtree of the root 
 * Time Complexity: 
-* linear
-* each node is output only once, takes constant time per node.
-* O(N)
+ * linear
+ * each node is output only once, takes constant time per node.
+ * O(N)
 * 
 
 ### Binary Tree
@@ -70,8 +85,8 @@ zero or more subtrees.
     * allows logarithmic time insertions and accessing of items, and priority queues.  
 
 * Time Complexity: 
-* most operations is O(log N) on average. 
-* the worst-case time is O(N) per operation.
+ * most operations is O(log N) on average. 
+ * the worst-case time is O(N) per operation.
 
 
 ### Hash Table
