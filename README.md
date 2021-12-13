@@ -89,8 +89,8 @@
     * allows logarithmic time insertions and accessing of items, and priority queues.  
 
 * Time Complexity: 
- * most operations is O(log N) on average. 
- * the worst-case time is O(N) per operation.
+  * most operations is O(log N) on average. 
+  * the worst-case time is O(N) per operation.
 
 
 ### Hash Table
