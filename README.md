@@ -50,8 +50,8 @@
      * 3. path length: the number of edges from the root to each node. 
      * 4. leaf: node that has no children is called an leaf
      * 5. depth: length of the path from the root to the node. the depth of root is 0. the depth of any node is one more that its parent.
-      * 6. height: length of the path from the node to the deepest leaf.
-      * 7. size: The number of descendants a node has (including the node itself).
+     * 6. height: length of the path from the node to the deepest leaf.
+     * 7. size: The number of descendants a node has (including the node itself).
         
 2. recursively tree: a tree is either empty or consists of a root and zero or more subtrees. 
 
