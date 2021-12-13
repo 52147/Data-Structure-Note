@@ -43,6 +43,14 @@
 
 ![image](https://user-images.githubusercontent.com/79159894/145886189-3f9037e7-5f5e-43d9-80f7-94e2721a115b.png)
 
+
+* Is the following tree a heap? 
+* NO
+* although all node have smaller value than their child nodes, it is not a complete binary tree.
+
+![image](https://user-images.githubusercontent.com/79159894/145888282-157c666e-1ded-4422-b100-6cea59a83ccd.png)
+
+
 ### Doubly Linked List
 * A doubly linked list allows bidirectional traversal by storing two links per node.
 * Symmetry demands that we use both a head and a tail and that we support roughly twice as many operations.
