@@ -7,6 +7,7 @@
 ## Final Note
 
 ### Doubly Linked List
+* A doubly linked list allows bidirectional traversal by storing two links per node.
 
 ### Recursion
 * A recursive method is a method that either directly or indirectly makes a call to itself.
@@ -58,9 +59,13 @@
 ### Tree traversal
 * traversal: count how many descendants the node has.
 * can be implemented recursive or non recursive
+
+![image](https://user-images.githubusercontent.com/79159894/145777204-c8cb32d0-4272-4652-8a70-39950d54660b.png)
+
 1. preorder : vist root node-> left subtree of the root -> right subtree of the root
 2. postorder : vist left subtree of the root -> right subtree of the root -> root node
 3. inorder : vist left subtree of the root -> root node -> right subtree of the root 
+
 * Time Complexity: 
   * linear
   * each node is output only once, takes constant time per node.
