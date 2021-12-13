@@ -58,14 +58,14 @@
 ### Tree traversal
 * traversal: count how many descendants the node has.
 * can be implemented recursive or non recursive
-* 1. preorder : vist root node-> left subtree of the root -> right subtree of the root
-* 2. postorder : vist left subtree of the root -> right subtree of the root -> root node
-* 3. inorder : vist left subtree of the root -> root node -> right subtree of the root 
+1. preorder : vist root node-> left subtree of the root -> right subtree of the root
+2. postorder : vist left subtree of the root -> right subtree of the root -> root node
+3. inorder : vist left subtree of the root -> root node -> right subtree of the root 
 * Time Complexity: 
- * linear
- * each node is output only once, takes constant time per node.
- * O(N)
-* 
+  * linear
+  * each node is output only once, takes constant time per node.
+  * O(N)
+
 
 ### Binary Tree
 
