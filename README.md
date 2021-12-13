@@ -14,7 +14,7 @@
  * Proofs by induction:
  * 1. a statement is true for a smallest case 
  * 2. and can show that one case implies the next case
- *   => then we know the statement is true for all cases.
+   *  => then we know the statement is true for all cases.
  * Base case(to stop):
  * Any recursive call must make progress toward a base case(can be computed without recursion) in order to terminate eventually.
 
@@ -25,7 +25,7 @@
  * The stack of activation records is used because methods return in reverse order of their invocation
  * Recursion can always be removed by using a stack to save space.
 
-* Recursion can be proved by induction.
+
 
 
 ### Tree
