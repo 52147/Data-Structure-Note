@@ -14,20 +14,20 @@
    * Proofs by induction:
    * 1. a statement is true for a smallest case 
    * 2. and can show that one case implies the next case
-     *  => then we know the statement is true for all cases.
+   *  => then we know the statement is true for all cases.
  * Base case(to stop):
- * Any recursive call must make progress toward a base case(can be computed without recursion) in order to terminate eventually.
+   * Any recursive call must make progress toward a base case(can be computed without recursion) in order to terminate eventually.
 
 * Fibonacci numbers: A sequence of numbers in which the ith number is the sum of the two previous numbers.
 
 * Using stack to implement:
   * Java implements recursive methods by using an internal stack of activation records.
-  * The stack of activation records is used because methods return in reverse order of their invocation
+  * because methods return in reverse order of their invocation
   * Recursion can always be removed by using a stack to save space.
 
 * Activation record:
   *  is used to manage the information needed by a single execution of a procedure. 
-  *  An activation record is pushed into the stack when a procedure is called and it is popped when the control returns to the caller function.
+  *  is pushed into the stack when a procedure is called and it is popped when the control returns to the caller function.
 
 
 
@@ -37,10 +37,10 @@
    * consistd of a set of nodes and a set of directed edges
    * application: 
      * File system : 
-     * use root and childre to reach hierarchical file system, it allows user to organize their data logically.
-     * ex: Unix, VAX/VMS, and windows/DOS
+       * use root and childre to reach hierarchical file system, it allows user to organize their data logically.
+       * ex: Unix, VAX/VMS, and windows/DOS
      * Unix fily system:
-     * the root of directory is mark, mark has 3 children books, course, login
+       * the root of directory is mark, mark has 3 children books, course, login
    * rooted tree's properties:
    
      * 1. One root node(has no parent); depth: 0;
@@ -71,7 +71,7 @@
 
 
 * supports insertion, searching, and deletion in O(log N) average time. 
-* one node that can only have two children, which neamed them left and right
+* one node that can only have two children, named them left and right
 * BT can be empty or consist a root, a left, a right.(left, right can be empty)
 * smaller keyed nodes are in the left subtree and larger keyed nodes are in the right subtree. 
 * Duplicates are not allowed.
